@@ -1,0 +1,20 @@
+DOCTOR APPOINTMENT BOOKING SYSTEM - REQUIREMENTS
+================================================
+
+Chosen value: N = 3
+A patient may have at most N = 3 upcoming appointments at any given time.
+Only future appointments with status Pending or Accepted count toward N.
+Declined, Cancelled and past appointments do NOT count.
+
+FUNCTIONAL REQUIREMENTS
+-----------------------
+R1  [Functional]      A patient can view the days and times when a doctor is available.
+R2  [Functional]      A patient can book an appointment during an available time slot.
+R3  [Functional]      A doctor can accept or decline an appointment request.
+R4  [Functional]      A patient can have at most N (N = 3) upcoming appointments at any given time.
+
+NON-FUNCTIONAL REQUIREMENTS
+---------------------------
+R5  [Non-functional]  Patient medical data shall be accessible only to authorized staff.
+R6  [Non-functional]  Available appointment times shall be displayed within 2 seconds.
+R7  [Non-functional]  The application shall be usable on mobile phone screens.
